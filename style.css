@@ -1,0 +1,93 @@
+body{
+    background-color: #629D66;
+    background-image: url(img/bg.png);
+    font-family: 'Treubchet MS', Arial;
+    background-repeat: repeat-x;
+
+}
+
+main{
+    max-width: 900px;
+    margin: auto;
+    text-align: justify;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "h h"
+    "n a"
+    "f f";
+}
+
+header{
+    grid-area: h;
+    color: white;
+    background-image: url(img/logo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    grid-area: n;
+    font-family: "Verdana",Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    width: 200px;
+    background-repeat: no-repeat;
+}
+
+article{
+    grid-area: a;
+    width: 700px;
+    font-size: 12pt;
+}
+
+footer{
+    grid-area: f;
+    text-align: center;
+    background-color: #203926;
+    color: white;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    padding-left: 400px;
+}
+
+h3{
+    background-color: #203926;
+    color: white;
+    padding: 0;
+}
+
+div{
+    list-style: none;
+    background-image: url(img/img02.gif);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: #96A96F;
+    
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+}
+
+li{
+    padding: 3%;
+}
+
+article>p>img{
+    float: left;
+    margin: 5pt;
+    margin-right: 20px;
+}
+
+a{
+    color: green;
+}
+
+a:hover{
+    color: #203926;
+}
